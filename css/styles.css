@@ -1,0 +1,172 @@
+:root {
+  --page-color: #FFFFFF;
+  --hero-color: #2E2F42;
+  --logo-color: #4D5AE5;
+  --color: #434455;
+  --logo-background: #F4F4FD;
+}
+p {
+  padding: 0;
+}
+
+img {    display: block;
+}
+.list,
+ul,
+ol {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+
+.link,
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.btn,
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.33333;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+#categories {
+    border-radius: 8px;
+    padding: 24px;
+    width: 440px;
+    height: 888px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .item {
+    border-radius: 8px;
+    padding: 16px;
+  
+    background: #f6f6fe;
+  }
+.item > ul > li {
+    border-radius: 4px;
+    border: 1px solid #808080;
+    width: 360px;
+    height: 40px;
+    color: #2e2f42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    padding-top: 8px;
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+
+  .gallery {
+    min-width: 1429px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    background: #fff;
+  }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  #name-input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    background: #fff;
+    padding-left: 16px;
+  }
+  #name-input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+ 
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  label > input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 16px;
+  }
+  form > button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background: #4e75ff;
+    border-color: inherit;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    display: flex;
+  }
+  .widget {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  .change-color {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background: #4e75ff;
+    margin: auto;
+    border-color: inherit;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+  }
