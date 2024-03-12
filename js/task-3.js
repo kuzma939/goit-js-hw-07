@@ -1,16 +1,12 @@
-
-let input = document.querySelector('#name-input');
-let output = document.querySelector('#name-output');
-input.addEventListener('input', welcome);
-
-function welcome(event) {
-  console.log(event.currentTarget);
-  console.log(event.targer);
-  const value = event.currentTarget.value;
-  const name = value.trim();
-  if (name === '') {
-    output.textContent = 'Anonymous';
-    return;
+const inputEl = document.querySelector("#name-input");
+const emptyInput = document.querySelector("#name-output");
+inputEl.addEventListener(`input`, inputGreeting);
+function inputGreeting(event) {
+  const nameInput = event.target.value;
+  const names = nameInput.trim();
+  if (names === ``) {
+    emptyInput.textContent = `Anonymous`;
+  } else {
+    emptyInput.textContent = names;
   }
-  output.textContent = name;
-} 
+}
